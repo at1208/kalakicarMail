@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/:from/:name/:text', (req,res) => {
   const from = req.params.from;
-  const to = 'vrindakohli0909@gmail.com';
+  const to = 'kalakicar18@gmail.com';
   const name = req.params.name;
   const text = req.params.text;
   email(from,to,name,text);
